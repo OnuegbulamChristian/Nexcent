@@ -1,0 +1,40 @@
+.Navbar-section-div {
+  height: 10vh;
+}
+.Navbar-parent-div {
+  height: 10vh;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Buttons-div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+.Last-button {
+  width: 130px;
+  height: 30px;
+  background-color: #2ea32e;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: transparent;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 834px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
