@@ -2,3 +2,37 @@
   height: 80vh;
   background-color: red;
 }
+.Pixel-grade-parent-div {
+  width: 95%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.Pixel-grade-container1 {
+  width: 50%;
+  height: 450px;
+  background-color: blue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.Pixel-grade-container2 {
+  width: 50%;
+  height: 450px;
+  background-color: blue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.Pixel-grade-container1 div {
+  width: 360px;
+  height: 420px;
+}
+.Pixel-grade-container1 div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
