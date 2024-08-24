@@ -8,6 +8,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 .Our-clients-logo-parent-div {
   display: flex;
