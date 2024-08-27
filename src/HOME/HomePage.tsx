@@ -5,6 +5,7 @@ import OurClients from "../COMPONENTS/OurClients/OurClients";
 import CommunitySection from "../COMPONENTS/CommunitySection/CommunitySection";
 import PixelGradeSection from "../COMPONENTS/PixelGradeSection/PixelGradeSection";
 import HelpSection from "../COMPONENTS/HelpSection/HelpSection";
+import CaringSection from "../COMPONENTS/CaringSection/CaringSection";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <CommunitySection />
       <PixelGradeSection />
       <HelpSection />
+      <CaringSection />
     </div>
   );
 };
