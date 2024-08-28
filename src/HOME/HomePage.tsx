@@ -6,6 +6,7 @@ import CommunitySection from "../COMPONENTS/CommunitySection/CommunitySection";
 import PixelGradeSection from "../COMPONENTS/PixelGradeSection/PixelGradeSection";
 import HelpSection from "../COMPONENTS/HelpSection/HelpSection";
 import CaringSection from "../COMPONENTS/CaringSection/CaringSection";
+import FooterSection from "../COMPONENTS/FooterSection/FooterSection";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <PixelGradeSection />
       <HelpSection />
       <CaringSection />
+      <FooterSection />
     </div>
   );
 };

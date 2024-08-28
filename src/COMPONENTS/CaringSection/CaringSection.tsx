@@ -1,5 +1,6 @@
 import React from "react";
 import "./CaringSection.css";
+import careimg from "../../ASSETS/careimg.png";
 
 const CaringSection = () => {
   return (
@@ -12,7 +13,35 @@ const CaringSection = () => {
           read about how our community are increasing their membership income
           and lot's more.
         </p>
-        <div className="Caring-section-image-parent-div"></div>
+        <div className="Caring-section-image-parent-div">
+          <div>
+            <div id="Caring-section-image-div">
+              <img src={careimg} alt="" />
+            </div>
+            <div id="Caring-section-content-div">
+              <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div>
+            <div id="Caring-section-image-div">
+              <img src={careimg} alt="" />
+            </div>
+            <div id="Caring-section-content-div">
+              <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div>
+            <div id="Caring-section-image-div">
+              <img src={careimg} alt="" />
+            </div>
+            <div id="Caring-section-content-div">
+              <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

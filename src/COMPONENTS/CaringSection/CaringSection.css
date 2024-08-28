@@ -1,9 +1,8 @@
 .Caring-section-div {
-  height: 100vh;
-  background-color: red;
+  height: 80vh;
 }
 .Caring-section-Parent-div {
-  height: 100vh;
+  height: 80vh;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -11,6 +10,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.Caring-section-Parent-div h1 {
+  padding-top: 50px;
 }
 .Caring-section-Parent-div p {
   padding-top: 8px;
@@ -21,9 +23,53 @@
 .Caring-section-image-parent-div {
   width: 80%;
   height: 65vh;
-  background-color: blue;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
+}
+.Caring-section-image-parent-div div {
+  width: 300px;
+  height: 350px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Caring-section-image-div {
+  width: 300px;
+  height: 250px;
+  background-color: transparent;
+  border-radius: 25px;
+}
+#Caring-section-content-div {
+  width: 270px;
+  height: 150px;
+  background-color: #f3fff3;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  gap: 20px;
+  position: relative;
+  top: -50px;
+}
+#Caring-section-content-div h3 {
+  font-size: 15px;
+  text-align: center;
+}
+#Caring-section-content-div button {
+  width: 100px;
+  height: 30px;
+  background-color: #2ea32e;
+  border-color: transparent;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+}
+#Caring-section-image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
