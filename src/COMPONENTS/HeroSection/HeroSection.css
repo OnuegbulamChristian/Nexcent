@@ -98,7 +98,7 @@
   .Hero-section-parent-div {
     flex-wrap: wrap;
     height: auto;
-    gap: 50px;
+    gap: 15px;
   }
   .Hero-section-containers {
     width: 100%;

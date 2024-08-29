@@ -59,6 +59,12 @@
   .Our-clients-parent-div {
     height: auto;
   }
+  .Our-clients-parent-div h1 {
+    font-size: larger;
+  }
+  .Our-clients-parent-div p {
+    font-size: small;
+  }
 }
 
 @media (max-width: 480px) {
