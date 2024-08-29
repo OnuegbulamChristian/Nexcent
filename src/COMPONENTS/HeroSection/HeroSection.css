@@ -101,6 +101,7 @@
     gap: 15px;
   }
   .Hero-section-containers {
+    height: 40vh;
     width: 100%;
   }
   .Hero-section-div {
