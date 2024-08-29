@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="Hero-section-div">
       <div className="Hero-section-parent-div">
-        <div className="Container1">
+        <div className="Hero-section-containers">
           <h1>Lessons and insights</h1>
           <h2>from 8 years</h2>
           <p>
@@ -14,7 +14,7 @@ const HeroSection = () => {
           </p>
           <button>Register</button>
         </div>
-        <div className="Container2">
+        <div className="Hero-section-containers">
           <img src={HeroImage} alt="" />
         </div>
       </div>

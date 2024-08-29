@@ -19,21 +19,35 @@
 }
 .Last-button {
   width: 130px;
-  height: 30px;
+  height: 40px;
   background-color: #2ea32e;
   border-radius: 8px;
   border-style: solid;
   border-color: transparent;
   color: white;
+  padding-top: 5px;
+}
+.Navbar-icon-div {
+  font-size: x-large;
+  display: none;
 }
 
 @media (max-width: 1024px) {
+  .Navbar-parent-div {
+    justify-content: space-between;
+  }
 }
 
 @media (max-width: 834px) {
 }
 
 @media (max-width: 768px) {
+  .Buttons-div {
+    display: none;
+  }
+  .Navbar-icon-div {
+    display: flex;
+  }
 }
 
 @media (max-width: 480px) {
