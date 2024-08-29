@@ -13,8 +13,8 @@ const HomePage = () => {
     <div>
       <NavBar />
       <HeroSection />
-      {/* <OurClients />
-      <CommunitySection />
+      <OurClients />
+      {/* <CommunitySection />
       <PixelGradeSection />
       <HelpSection />
       <CaringSection />
