@@ -130,7 +130,8 @@
   }
   .Pixel-grade-container2 p {
     font-size: 12px;
-    padding-left: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -153,12 +154,11 @@
   .Pixel-grade-container2 {
     width: auto;
     height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .Pixel-grade-container1 {
     width: auto;
     height: auto;
-  }
-  .Pixel-grade-container2 p {
-    padding-left: 0%;
   }
 }
