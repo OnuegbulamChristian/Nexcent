@@ -71,38 +71,48 @@
   }
   .Community-section-div {
     width: auto;
+    height: auto;
   }
   .Community-section-parent-div {
     width: auto;
+    height: auto;
   }
   .Community-section-content-parent-div {
     width: auto;
+    height: auto;
   }
   .Comunity-section-container1 {
     width: auto;
+    height: auto;
   }
   .Community-section-content-div {
     width: auto;
+    height: auto;
   }
 }
 
 @media (max-width: 834px) {
   .Community-section-div {
     width: auto;
+    height: auto;
   }
   .Community-section-parent-div {
     width: auto;
+    height: auto;
   }
   .Community-section-content-parent-div {
     width: auto;
+    height: auto;
     gap: 15px;
   }
   .Comunity-section-container1 {
     width: auto;
+    height: auto;
     gap: 15px;
   }
   .Community-section-content-div {
     width: auto;
+    height: auto;
   }
   .Community-section-content-div h2 {
     font-size: larger;
@@ -113,6 +123,7 @@
 @media (max-width: 768px) {
   .Community-section-content-parent-div {
     flex-wrap: wrap;
+    height: auto;
   }
   #Community-section-content-div {
     width: 100%;
@@ -144,11 +155,25 @@
 @media (max-width: 480px) {
   .Comunity-section-container1 {
     flex-wrap: wrap;
+    height: auto;
   }
   .Community-section-content-div {
     width: 100%;
+    height: auto;
   }
   .Community-section-parent-div h1 {
     font-size: small;
+  }
+  .Community-section-parent-div {
+    width: auto;
+    height: auto;
+  }
+  .Community-section-div {
+    width: auto;
+    height: auto;
+  }
+  .Community-section-content-parent-div {
+    width: auto;
+    height: auto;
   }
 }
