@@ -166,4 +166,7 @@
   .Pixel-grade-container2 p {
     width: 100%;
   }
+  .Pixel-grade-container2 button {
+    margin-bottom: 10px;
+  }
 }
