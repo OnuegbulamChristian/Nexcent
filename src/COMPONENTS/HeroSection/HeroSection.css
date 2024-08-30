@@ -92,13 +92,15 @@
   .Hero-section-parent-div {
     height: auto;
   }
+  .Hero-section-containers {
+    height: 60vh;
+  }
 }
 
 @media (max-width: 480px) {
   .Hero-section-parent-div {
     flex-wrap: wrap;
     height: auto;
-    gap: 15px;
   }
   .Hero-section-containers {
     height: 40vh;

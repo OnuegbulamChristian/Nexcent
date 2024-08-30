@@ -20,6 +20,8 @@
   gap: 30px;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Comunity-section-container1 {
   width: 630px;
@@ -60,17 +62,90 @@
 }
 .Community-section-content-div p {
   font-size: small;
-  width: 80%;
+  width: 90%;
 }
 
 @media (max-width: 1024px) {
+  .Community-section-parent-div h1 {
+    font-size: x-large;
+  }
+  .Community-section-div {
+    width: auto;
+  }
+  .Community-section-parent-div {
+    width: auto;
+  }
+  .Community-section-content-parent-div {
+    width: auto;
+  }
+  .Comunity-section-container1 {
+    width: auto;
+  }
+  .Community-section-content-div {
+    width: auto;
+  }
 }
 
 @media (max-width: 834px) {
+  .Community-section-div {
+    width: auto;
+  }
+  .Community-section-parent-div {
+    width: auto;
+  }
+  .Community-section-content-parent-div {
+    width: auto;
+    gap: 15px;
+  }
+  .Comunity-section-container1 {
+    width: auto;
+    gap: 15px;
+  }
+  .Community-section-content-div {
+    width: auto;
+  }
+  .Community-section-content-div h2 {
+    font-size: larger;
+    width: 60%;
+  }
 }
 
 @media (max-width: 768px) {
+  .Community-section-content-parent-div {
+    flex-wrap: wrap;
+  }
+  #Community-section-content-div {
+    width: 100%;
+    height: auto;
+  }
+  .Community-section-div {
+    height: auto;
+  }
+  .Community-section-parent-div {
+    height: auto;
+  }
+  .Community-section-parent-div h1 {
+    font-size: larger;
+  }
+  .Community-section-parent-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Comunity-section-container1 {
+    height: auto;
+  }
+  .Community-section-content-div {
+    height: auto;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 @media (max-width: 480px) {
+  .Comunity-section-container1 {
+    flex-wrap: wrap;
+  }
+  .Community-section-content-div {
+    width: 100%;
+  }
 }

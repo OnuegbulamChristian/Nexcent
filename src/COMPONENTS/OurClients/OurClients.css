@@ -65,6 +65,9 @@
   .Our-clients-parent-div p {
     font-size: small;
   }
+  .Our-clients-logo-parent-div {
+    gap: 25px;
+  }
 }
 
 @media (max-width: 480px) {

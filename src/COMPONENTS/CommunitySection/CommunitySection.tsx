@@ -35,7 +35,10 @@ const CommunitySection = () => {
               </p>
             </div>
           </div>
-          <div className="Community-section-content-div">
+          <div
+            className="Community-section-content-div"
+            id="Community-section-content-div"
+          >
             <div className="Community-section-content-image-div">
               <img src={cs3} alt="" />
             </div>

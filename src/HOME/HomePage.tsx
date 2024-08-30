@@ -14,8 +14,8 @@ const HomePage = () => {
       <NavBar />
       <HeroSection />
       <OurClients />
-      {/* <CommunitySection />
-      <PixelGradeSection />
+      <CommunitySection />
+      {/* <PixelGradeSection />
       <HelpSection />
       <CaringSection />
       <FooterSection /> */}
