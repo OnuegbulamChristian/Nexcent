@@ -27,6 +27,7 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .Pixel-grade-container1 div {
   width: 360px;
@@ -160,5 +161,8 @@
   .Pixel-grade-container1 {
     width: auto;
     height: auto;
+  }
+  .Pixel-grade-container2 p {
+    width: 100%;
   }
 }

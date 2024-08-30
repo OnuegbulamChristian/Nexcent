@@ -33,6 +33,17 @@
 }
 
 @media (max-width: 1024px) {
+  .Our-clients-section-div {
+    height: auto;
+    width: auto;
+  }
+  .Our-clients-parent-div {
+    height: auto;
+    width: auto;
+  }
+  .Our-clients-parent-div h1 {
+    padding-top: 30px;
+  }
 }
 
 @media (max-width: 834px) {
@@ -42,8 +53,10 @@
   }
   .Our-clients-section-div {
     height: auto;
+    width: auto;
   }
   .Our-clients-parent-div {
+    width: auto;
     height: auto;
   }
 }
@@ -55,9 +68,11 @@
   }
   .Our-clients-section-div {
     height: auto;
+    width: auto;
   }
   .Our-clients-parent-div {
     height: auto;
+    width: auto;
   }
   .Our-clients-parent-div h1 {
     font-size: larger;
@@ -78,9 +93,11 @@
   }
   .Our-clients-section-div {
     height: auto;
+    width: auto;
   }
   .Our-clients-parent-div {
     height: auto;
+    width: auto;
   }
   .Our-clients-parent-div h1 {
     padding-top: 10px;

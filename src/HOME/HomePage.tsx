@@ -16,8 +16,8 @@ const HomePage = () => {
       <OurClients />
       <CommunitySection />
       <PixelGradeSection />
-      {/* <HelpSection />
-      <CaringSection />
+      <HelpSection />
+      {/* <CaringSection />
       <FooterSection /> */}
     </div>
   );
