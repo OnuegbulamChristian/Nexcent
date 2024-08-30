@@ -153,15 +153,17 @@
     font-size: medium;
   }
   .Pixel-grade-container2 {
-    width: auto;
+    width: 100%;
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
     align-items: flex-start;
   }
   .Pixel-grade-container1 {
-    width: auto;
+    width: 100%;
     height: auto;
+    align-items: flex-start;
+    margin-left: 20px;
   }
   .Pixel-grade-container2 p {
     width: 100%;
