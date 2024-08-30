@@ -131,8 +131,8 @@
   }
   .Pixel-grade-container2 p {
     font-size: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
   }
 }
 
@@ -163,8 +163,6 @@
     width: 90%;
     height: auto;
     align-items: flex-start;
-    /* padding-left: 20px; */
-    align-content: center;
   }
   .Pixel-grade-container2 p {
     width: 100%;
