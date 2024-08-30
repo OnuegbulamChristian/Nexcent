@@ -61,6 +61,7 @@
   }
   .Our-clients-parent-div h1 {
     font-size: larger;
+    padding-top: 10px;
   }
   .Our-clients-parent-div p {
     font-size: small;
@@ -80,5 +81,8 @@
   }
   .Our-clients-parent-div {
     height: auto;
+  }
+  .Our-clients-parent-div h1 {
+    padding-top: 10px;
   }
 }
