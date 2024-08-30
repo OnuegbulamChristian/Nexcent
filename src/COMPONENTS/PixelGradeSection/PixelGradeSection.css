@@ -157,6 +157,7 @@
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
+    align-items: flex-start;
   }
   .Pixel-grade-container1 {
     width: auto;
