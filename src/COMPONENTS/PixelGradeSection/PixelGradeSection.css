@@ -123,13 +123,13 @@
   .Pixel-grade-container1 {
     width: auto;
     height: auto;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
   .Pixel-grade-container2 {
     height: auto;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
   .Pixel-grade-container2 p {
     font-size: 12px;
@@ -159,6 +159,6 @@
   .Pixel-grade-container1 {
     width: auto;
     height: auto;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
 }
