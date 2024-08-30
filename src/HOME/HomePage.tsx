@@ -15,8 +15,8 @@ const HomePage = () => {
       <HeroSection />
       <OurClients />
       <CommunitySection />
-      {/* <PixelGradeSection />
-      <HelpSection />
+      <PixelGradeSection />
+      {/* <HelpSection />
       <CaringSection />
       <FooterSection /> */}
     </div>
