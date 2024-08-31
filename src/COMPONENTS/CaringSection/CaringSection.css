@@ -209,7 +209,7 @@
     height: auto;
   }
   #Caring-section-content-div {
-    width: 80%;
+    width: 75%;
     height: auto;
     gap: 10px;
     padding-top: 10px;
@@ -222,7 +222,7 @@
     border-radius: 10px;
   }
   #Caring-section-image-div {
-    width: 100%;
+    width: 90%;
     height: 250px;
     border-radius: 10px;
   }
