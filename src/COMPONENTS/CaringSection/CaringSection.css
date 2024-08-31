@@ -209,11 +209,6 @@
     height: auto;
   }
   #Caring-section-content-div {
-    width: 100%;
-    height: 150px;
-    border-radius: 10px;
-  }
-  #Caring-section-content-div {
     width: 80%;
     height: auto;
     gap: 10px;
@@ -224,6 +219,11 @@
     width: 85%;
   }
   #Caring-section-image-div img {
+    border-radius: 10px;
+  }
+  #Caring-section-image-div {
+    width: 100%;
+    height: 150px;
     border-radius: 10px;
   }
 }
