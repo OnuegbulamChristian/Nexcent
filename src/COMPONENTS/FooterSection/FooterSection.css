@@ -123,13 +123,18 @@
   .Footer-section-parent-div {
     height: auto;
     width: auto;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
   }
   .Footer-content-div {
     flex-wrap: wrap;
+    gap: 10px;
   }
   .Footer-content-div div {
     width: 100%;
+  }
+  .Footer-icons-div div {
+    width: 10px;
+    height: 10px;
   }
 }
