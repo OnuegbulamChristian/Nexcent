@@ -1,80 +1,135 @@
 .Footer-section-div {
   height: 60vh;
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(31, 31, 31);
 }
 .Footer-section-parent-div {
+  display: flex;
+  height: 50vh;
   width: 95%;
-  height: 60vh;
+  justify-content: center;
+  padding: 50px;
+  color: white;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+  gap: 100px;
 }
-.Line {
-  width: 95%;
-  height: 1px;
-  background-color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
+#Footer-section-image-div {
+  width: 230px;
+  height: 40px;
+  margin-bottom: 20px;
 }
-.Footer-section-parent-div p {
-  color: white;
-  font-size: smaller;
-}
-.Footer-section-content-parent-div {
-  width: 90%;
-  height: 300px;
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.Footer-section-content-parent-div div {
-  width: 49%;
-  background-color: yellow;
-  height: 290px;
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  gap: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.Footer-section-content-parent-div div div {
-  width: 48%;
-  height: 280px;
-  background-color: blue;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 25px;
-  color: white;
-  gap: 16px;
-}
-.Footer-section-content-parent-div div div p {
-  font-size: medium;
-}
-#Footer-image-div {
-  height: 100px;
-  width: 200px;
-  background-color: aqua;
-}
-#Footer-image-div img {
+#Footer-section-image-div img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: fill;
+}
+.Footer-section-parent-div div h5 {
+  font-size: medium;
+  margin-bottom: 20px;
+}
+.Footer-section-parent-div div p {
+  margin-bottom: 20px;
+  font-size: small;
+}
+.Footer-section-div hr {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Copyright {
+  color: white;
+  text-align: center;
+  font-size: small;
+  padding-top: 20px;
+}
+.Footer-icons-div {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  gap: 20px;
+}
+.Footer-icons-div div {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#Footer-icon {
+  color: black;
+}
+.Footer-content-div {
+  display: flex;
+  width: auto;
+  height: auto;
+  gap: 100px;
 }
 
 @media (max-width: 1024px) {
+  .Footer-section-div {
+    height: auto;
+    width: auto;
+  }
+  .Footer-section-parent-div {
+    height: auto;
+    width: auto;
+    gap: 60px;
+  }
 }
 
 @media (max-width: 834px) {
+  .Footer-section-div {
+    height: auto;
+    width: auto;
+  }
+  .Footer-section-parent-div {
+    height: auto;
+    width: auto;
+    gap: 60px;
+  }
+  .Footer-content-div {
+    gap: 60px;
+  }
 }
 
 @media (max-width: 768px) {
+  .Footer-section-div {
+    height: auto;
+    width: auto;
+  }
+  .Footer-section-parent-div {
+    height: auto;
+    width: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .Footer-content-div {
+    width: 100%;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .Footer-content-div div {
+    width: 50%;
+  }
 }
 
 @media (max-width: 480px) {
+  .Footer-section-div {
+    height: auto;
+    width: auto;
+  }
+  .Footer-section-parent-div {
+    height: auto;
+    width: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .Footer-content-div {
+    flex-wrap: wrap;
+  }
+  .Footer-content-div div {
+    width: 100%;
+  }
 }
